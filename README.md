@@ -11,14 +11,13 @@ Once you have the keys after downloading the MovieHandler and compiling the proj
 
 To use API Key authentication:
 
-<add key="ApplicationLevelAuthentication" value="APIKey" />
-<add key="APIKey" value="_API_KEY_HERE" />
+`<add key="ApplicationLevelAuthentication" value="APIKey" />`
+`<add key="APIKey" value="_API_KEY_HERE" />`
 
 To use Bearer Token authentication:
 
-<add key="ApplicationLevelAuthentication" value="BearerToken" />
-<add key="BearerToken" value="_BEARERTOKEN_HERE" />
-
+`<add key="ApplicationLevelAuthentication" value="BearerToken" />`
+`<add key="BearerToken" value="_BEARERTOKEN_HERE" />`
 
 When running the project you must inform the themoviedb api URL which is usually:
 
